@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  width: 800px;
+  border: 1px solid #ddd;
+}
+
+.App .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.App .row .col {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  flex: 1 1 auto;
+}
+
+.App .row .col img {
+  width: 100%;
+  height: auto;
+}
+
+.App .member-list-container {
+  border: 1px solid #ddd;
+}
+
+.App .member-list {
+  text-align: center;
+}
